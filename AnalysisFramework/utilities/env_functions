@@ -1,0 +1,6 @@
+# Author: franzisk
+# From: https://stackoverflow.com/questions/60266215/shuffle-output-of-find-with-fixed-seed
+get_fixed_random()
+{
+    openssl enc -aes-256-ctr -pass pass:"$1" -nosalt </dev/zero 2>/dev/null
+}

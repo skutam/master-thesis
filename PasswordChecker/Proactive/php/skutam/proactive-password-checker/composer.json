@@ -1,0 +1,23 @@
+{
+    "name": "skutam/proactive-password-checker",
+    "description": "Proactive password checker is a tool for finding weak passwords",
+    "type": "library",
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "Matúš Škuta",
+            "email": "xskuta04@vutbr.cz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "version": "1.0",
+    "autoload": {
+        "files": ["./src/checker.php"],
+        "psr-4": {
+            "ProactivePasswordChecker\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4.0"
+    }
+}

@@ -1,0 +1,1 @@
+from .ProactivePasswordChecker.checker import validate_password
